@@ -1,0 +1,233 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0.5em 0;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+    position:static;
+    top: 0;
+    z-index: 1000;
+}
+
+.header .logo {
+    margin-bottom: 1em;
+}
+
+.header .logo h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header .logo p {
+    font-size: 1em;
+    margin-top: 0.5em;
+}
+
+.header .nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header .nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+.header .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.header .nav ul li a:hover {
+    color: #50b3a2;
+}
+
+section {
+    padding: 4em 0;
+    text-align: center;
+}
+
+.about .profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.about .profile-img:hover {
+    transform: scale(1.2);
+}
+.container-about {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 4em 0;
+}
+
+.bio h2 {
+    margin: 1em 0;
+    font-size: 2em;
+}
+
+.bio p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Skills Section */
+.skills h2 {
+    margin-bottom: 1.5em;
+    font-size: 2em;
+}
+
+.skills .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.skills .skill {
+    background:skyblue;
+    color:black;
+    padding: 1em;
+    border-radius: 5px;
+    flex: 1 1 200px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.skills .skill:hover {
+    transform: scale(1.05);
+}
+
+/* Projects Section */
+.projects h2 {
+    margin-bottom: 1.5em;
+    font-size: 2em;
+}
+
+.projects .project {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.projects .project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.projects .project img:hover {
+    transform: scale(1.1);
+}
+
+.projects .project h3 {
+    font-size: 1.5em;
+    margin-top: 1em;
+    color: #333;
+}
+
+.projects .project p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1em;
+    color: #666;
+}
+.imagebutton {
+    display: flex;
+    margin: 0 400px 20px;
+    align-items:center;
+    gap: 10px; 
+}
+}
+.resume h2 {
+    margin-bottom: 1.5em;
+    font-size: 2em;
+}
+
+.resume .btn {
+    display: inline-block;
+    padding: 1em 2em;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.resume .btn:hover {
+    background: #50b3a2;
+}
+.contact {
+    width: 30%;
+    background-color: white;
+    margin: 0 500px 20px;
+    padding: 20px;
+    box-shadow: 0 200px 40px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px; 
+}
+
+.contact-container {
+    display:block;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.contact h2 {
+    margin-bottom: 0.5em;
+    font-size: 2em;
+}
+
+.contact p {
+    font-size: 1.2em;
+    color: #666;
+}
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .header .nav ul li {
+        display: block;
+        margin: 0.5em 0;
+    }
+}
